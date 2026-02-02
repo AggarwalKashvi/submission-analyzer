@@ -1,0 +1,9 @@
+node_modules/
+uploads/
+__pycache__/
+.env
+*.csv
+*.xlsx
+dist/
+.vite/
+.DS_Store

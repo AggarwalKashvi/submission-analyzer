@@ -1,0 +1,95 @@
+/* Page background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f7f9;
+  color: #2e2e2e;
+}
+
+/* Centered layout */
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main card */
+.card {
+  background: #ffffff;
+  padding: 50px 60px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 560px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+h1 {
+  margin-bottom: 40px; /* ✅ increased spacing */
+  color: #8b1e3f;
+  font-size: 32px;
+}
+
+/* Subtitle */
+.subtitle {
+  margin-top: -20px;
+  margin-bottom: 40px; /* extra breathing room */
+  font-size: 14px;
+  color: #666;
+}
+
+/* File input */
+input[type="file"] {
+  display: block;
+  margin: 20px auto 40px auto; /* ✅ more space from heading */
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 100%;
+  background-color: #fafafa;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #8b1e3f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: #a62649;
+}
+
+button:disabled {
+  background-color: #c7a0ad;
+  cursor: not-allowed;
+}
+
+/* Messages */
+.message {
+  margin-top: 25px;
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.success {
+  background-color: #f0f7f3;
+  color: #2e7d32;
+  border: 1px solid #c8e6c9;
+}
+
+.error {
+  background-color: #fdecea;
+  color: #8b1e3f;
+  border: 1px solid #f5c6cb;
+}
