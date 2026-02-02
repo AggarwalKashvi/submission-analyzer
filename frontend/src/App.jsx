@@ -29,7 +29,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/upload",
+        "https://submission-analyzer-2x7j.onrender.com",
         formData,
         { responseType: "blob" }
       );
